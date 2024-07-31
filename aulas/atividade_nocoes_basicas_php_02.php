@@ -1,7 +1,7 @@
 <?php
 
 $html = '<h1>Atividades</h1>';
-$html .= '<ul>Atividade 01 - 31-07-2024</h1>';
+$html .= '<ul>Atividade 02 - 06-08-2024</h1>';
 $html .= '<hr>';
 $html .= 'Crie um arquivo para cada exercicio, no formato "Exercicio01.php, Exercicio02.php"';
 $html .= '<hr>';
