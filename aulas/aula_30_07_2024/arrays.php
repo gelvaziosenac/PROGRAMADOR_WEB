@@ -46,6 +46,7 @@ function getDadosApi(){
     $salarioFuncionario->salarioLiquido = 2300;
 
     return array($salario, $nome, $recebeuSalario, $salarioFuncionario);
+    // list     ($salario, $nome, $recebeuSalario, $salarioFuncionario) = getDadosApi();
 }
 
 echo '<hr>';
