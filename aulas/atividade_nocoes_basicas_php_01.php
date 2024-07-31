@@ -15,8 +15,7 @@ $html .= '<hr>';
 
 $html .= '<li>';
 $html .= '02 - Crie uma função que retorna um array em PHP com uma lista de 5 nomes(String)<br>';
-$html .= 'Após isso, utilizando o comando "FOREACH" em PHP, chame a função utilizando a palavra reservada "list";<br>';
-$html .= 'Mostre os dados retornados na tela.';
+$html .= 'Após isso, utilizando o comando "FOREACH" em PHP, mostre os dados retornados na tela.';
 $html .= '</li>';
 
 $html .= '<hr>';
