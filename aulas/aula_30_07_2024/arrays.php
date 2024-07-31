@@ -142,4 +142,31 @@ function inserindoDados(){
     return true;    
 }
 
+// Atribuindo valores em um array
+$aDados = array();
+$aDados[] = "Gelvazio";
+$aDados[] = "Bruna";
+$aDados[] = "Romulo";
+
+foreach($aDados as $key => $values){
+    echo '<br>Nome:' . $values . ' - posição:' . $key;
+}
+
+echo '<br>';
+
+// Atribuindo valores em um array com posicao
+$aDados = array();
+$aDados[3] = "Bruna";
+$aDados[1] = "Gelvazio";
+$aDados[6] = "Romulo";
+
+// ordenando array pela chave
+ksort($aDados);
+
+echo '<br>Setando dados array - 02';
+foreach($aDados as $key => $values){
+    echo '<br>Nome:' . $values . ' - posição:' . $key;
+}
+
+
 
