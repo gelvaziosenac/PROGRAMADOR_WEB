@@ -48,6 +48,8 @@ $html .= '  <li>$numero2</li>';
 $html .= '  <li>$operacao</li>';
 $html .= '</li>';
 $html .= 'Deve ter uma função para somar,dividir,subtrair,multiplicar.';
+$html .= 'Ao final, deve chamar cada uma das funções, passando 2 numeros e a operação, e deve mostrar o resultado.';
+$html .= 'Pode passar os valores fixos, mas deve mostrar o resultado correto.';
 
 $html .= '<hr>';
 $html .= '</ul>';
