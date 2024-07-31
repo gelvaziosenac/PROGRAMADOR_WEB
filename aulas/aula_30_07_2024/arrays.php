@@ -82,10 +82,6 @@ function getPessoaObjeto(){
     $oPessoa->codigo = 1;
     $oPessoa->nome = 'Adriano\'s Bar';
     $oPessoa->idade = 25;
-    
-
-    $oPessoaFisica = $oPessoa;
-    $oPessoaJuridica = $oPessoa;
 
     // Adicionando o objeto atual no array de dados
     $aListaPessoasFn[] = $oPessoa;

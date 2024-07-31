@@ -55,6 +55,19 @@ $html .= 'Pode passar os valores fixos, mas deve mostrar o resultado correto.';
 $html .= 'Deve fazer todas as operações, somar, dividir, subtrair,multiplicar.';
 
 $html .= '<hr>';
+$html .= '<li>05 - Crie uma função que retorne um array com uma lista de 5 funcionarios, usando objeto do tipo "stdClass()".<br>';
+$html .= 'O objeto deverá ser um objeto de nome "$oSalario" e deverá conter os seguintes atributos:<br>';
+
+$html .= '<ul>';
+$html .= '  <li>funcionario - Deve ter o nome do funcionario</li>';
+$html .= '  <li>funcao - Programador, Advogado, Engenheiro, etc</li>';
+$html .= '  <li>salarioBruto</li>';
+$html .= '  <li>imposto</li>';
+$html .= '  <li>salarioLiquido</li>';
+$html .= '</ul>';
+
+$html .= 'Após isso, utilizando o comando "FOREACH" em PHP, percorra os dados e mostre na tela as informações de cada funcionario.<br>';
+$html .= '</li>';
 $html .= '</ul>';
 
 echo $html;
