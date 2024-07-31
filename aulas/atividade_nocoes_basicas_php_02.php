@@ -26,5 +26,4 @@ $html .= '<br>home.php para mostrar o usuario logado, apos entrar no sistema.';
 $html .= '<br>No arquivo home.php, criar uma funcao que vai utilizar $_GET["login"] e $_GET["senha"] para mostrar o usuario logado, apos entrar no sistema.';
 $html .= '<hr>';
 
-
 echo $html;
