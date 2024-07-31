@@ -86,9 +86,6 @@ function getPessoaObjeto(){
     // Adicionando o objeto atual no array de dados
     $aListaPessoasFn[] = $oPessoa;
 
-    $oPessoaTeste = $oPessoa;
-    $oPessoaTeste->codigo = 10;
-    
     $oPessoa = new  stdClass();
     $oPessoa->codigo = 2;
     $oPessoa->nome = 'Cauê';
