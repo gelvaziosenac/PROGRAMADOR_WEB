@@ -7,5 +7,6 @@
 function formataNumFloat($num){
     // substitui virgula por ponto
     $newNum = str_replace(',', '.', $num);
-    return $newNum;
+
+    return floatval($newNum);
 }
