@@ -7,6 +7,17 @@ function validaSessao(){
     if(isset($_SESSION)){
         // Se existe a sessao
         // valida usuario e senha
+        if(!isset($_SESSION["usuario"])){
+            // seta a sessao
+            $oUsuario = new stdClass();
+            // pega os dados da tela e seta na sessao
+            $oUsuario->codigo = 1;
+            $oUsuario->login = "admin";
+            $oUsuario->senha = "123";
+        
+            $_SESSION["usuario"] = $oUsuario;
+        }
+
         $oUsuario = $_SESSION["usuario"];
 
         $usuarioBancoDados = "admin";
